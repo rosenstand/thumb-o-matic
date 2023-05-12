@@ -1,3 +1,10 @@
+# thumb-o-matic
+WordPress plugin for thumbnail generation
+
+This code is really old. I wrote it in 2005 and it has been available
+on wp-plugins.org since then. I doubt that it has any value by now,
+but decided to import it to GitHub for historic reasons.
+
 Simply use a <thumb /> tag instead of <img /> when you wish to pull in
 a thumbnail. Everything inside the <thumb /> tag (except for the src
 parameter, which is modified to reference the generated thumbnail) will
