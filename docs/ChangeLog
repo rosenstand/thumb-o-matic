@@ -1,0 +1,12 @@
+0.2 (2005-??-??):
+
+	Under active development.
+
+	- Generate a new thumbnail if the original image has been modified
+	  since the current thumbnail was generated.
+	- No longer depend on EXIF support in PHP.
+	- A zillion funcion_exists() checks.
+
+0.1 (2005-05-16):
+
+	Initial version. Guaranteed to be buggy and ugly.

@@ -1,0 +1,16 @@
+Simply use a <thumb /> tag instead of <img /> when you wish to pull in
+a thumbnail. Everything inside the <thumb /> tag (except for the src
+parameter, which is modified to reference the generated thumbnail) will
+be parsed directly to the resulting <img /> tag.
+
+Example:
+
+	<thumb src="pamela.png" />
+
+will become
+
+	<a href="/wp-files/thumbs/pamela.png">
+	<img src="/wp-files/thumbs/pamela.png" />
+	</a>
+
+to the client.

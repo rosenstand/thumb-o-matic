@@ -1,0 +1,9 @@
+
+  Known bugs:
+
+  - The src parameter parsing should work more transparently.
+    src="/wp-content/foo.png" doesn't work, while src="foo.png" does.
+
+  - More function checking should be done.
+
+  - *Many* more, I'm sure. Please report to mark@borkware.net.
